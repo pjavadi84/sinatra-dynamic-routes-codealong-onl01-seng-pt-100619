@@ -25,7 +25,7 @@ class App < Sinatra::Base
     number_2 = params[:num2].to_i
     @total = number_1 * number_2
     "#{@total}"
-    binding.pry
+    # binding.pry
   end
 
 end
